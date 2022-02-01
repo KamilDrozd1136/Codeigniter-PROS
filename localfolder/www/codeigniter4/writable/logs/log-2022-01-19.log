@@ -1,0 +1,16 @@
+CRITICAL - 2022-01-19 01:00:10 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Config\Routes.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(705): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\spark(63): CodeIgniter\CLI\Console->run()
+#6 {main}
+CRITICAL - 2022-01-19 01:00:54 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Config\Routes.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(705): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\spark(63): CodeIgniter\CLI\Console->run()
+#6 {main}

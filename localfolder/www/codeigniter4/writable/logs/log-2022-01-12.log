@@ -1,0 +1,32 @@
+CRITICAL - 2022-01-12 01:08:41 --> Undefined variable $offer
+#0 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepass()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 01:14:32 --> Undefined property: App\Controllers\Auth::$session
+#0 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepass()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 01:14:35 --> Undefined property: App\Controllers\Auth::$session
+#0 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepass()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 01:28:24 --> Undefined property: App\Controllers\Auth::$session
+#0 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepass()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

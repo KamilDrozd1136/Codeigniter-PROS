@@ -1,0 +1,408 @@
+CRITICAL - 2022-01-11 11:07:24 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 11:07:52 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 11:08:05 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 11:08:35 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 11:18:30 --> Call to undefined method App\Models\OffersModel::getRows
+#0 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(11): CodeIgniter\Model->__call('getRows', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 11:21:40 --> Call to undefined method App\Models\OffersModel::getAll
+#0 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(11): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 12:05:10 --> Undefined property: App\Controllers\Dashboard::$OffersModel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 12:05:55 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:05:56 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:05:56 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:06:06 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:06:07 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:06:13 --> Object of class App\Models\OffersModel could not be converted to string
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-11 12:45:54 --> Cannot redeclare App\Controllers\Auth::changepassword()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-11 12:45:57 --> Cannot redeclare App\Controllers\Auth::changepassword()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-11 13:17:25 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/changepass...')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/changepass...')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 13:21:06 --> Undefined variable $query
+#0 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepass()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-11 13:45:11 --> Undefined variable $offer_list
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 13:46:13 --> Undefined variable $offer_list
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 13:50:13 --> Undefined variable $offer_list
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 13:50:17 --> Undefined variable $offer_list
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 14:40:56 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\myoffers.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/myoff...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(33): view('dashboard/myoff...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->viewMyOffers('30')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 14:43:09 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\myoffers.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/myoff...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(33): view('dashboard/myoff...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->viewMyOffers('30')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 14:44:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\myoffers.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/myoff...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(33): view('dashboard/myoff...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->viewMyOffers('30')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 14:44:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\myoffers.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/myoff...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(33): view('dashboard/myoff...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->viewMyOffers('30')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 14:45:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\myoffers.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/myoff...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(33): view('dashboard/myoff...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->viewMyOffers('30')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:34:51 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:35:17 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:35:58 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\dashboard\offerview.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/offer...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Dashboard.php(25): view('dashboard/offer...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Dashboard->view('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:36:21 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\auth\changepassword.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('auth/changepass...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(21): view('auth/changepass...')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepassword()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:36:24 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\auth\changepassword.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('auth/changepass...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(21): view('auth/changepass...')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepassword()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 15:37:55 --> Invalid file: offer/index.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('offer/index.php')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('offer/index', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(14): view('offer/index')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 15:38:05 --> Invalid file: offer/index.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('offer/index.php')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('offer/index', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(14): view('offer/index')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:09:43 --> Undefined array key "localization"
+#0 C:\xampp\htdocs\ci4\app\Views\offer\editoffer.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('offer/editoffer', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(84): view('offer/editoffer', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->edit('100')
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 16:19:51 --> Undefined variable $uid
+#0 C:\xampp\htdocs\ci4\app\Views\auth\changepassword.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1097): CodeIgniter\View\View->render('auth/changepass...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Auth.php(21): view('auth/changepass...')
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Auth->changepassword()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 16:20:10 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:21:50 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:23:48 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:23:51 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:24:07 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:24:21 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:24:23 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-11 16:24:35 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Offer.php(100): CodeIgniter\Model->update('100', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(824): App\Controllers\Offer->update('100')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Offer))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
